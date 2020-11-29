@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskPlanner- BootStrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="taskname">Task Name</label>
+            </div>
+            <div class="col">
+               <input type="text" name="taskname" id="taskname">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="taskdescription">Task Description</label>
+            </div>
+            <div class="col">
+                <input type="textarea" name="taskdescription" id="taskdescription">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="assignto">Assign To </label>
+            </div>
+            <div class="col">
+                <input type="text" name="assignto" id="assignto">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="duedate">Due Date</label>
+            </div>
+            <div class="col">
+                <input type="date" id="start-date" name="start_date" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="status">Status</label>
+            </div>
+            <div class="col">
+                <select name="status" id="status">
+                    <option value='todo'>To do</option>
+                    <option value='inprogress'>In Progress</option>
+                    <option value='review'>Review</option>
+                    <option value='done'>Done</option>
+                </select> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
